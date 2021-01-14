@@ -1,6 +1,10 @@
 import React from 'react';
 
-const Tabs: React.FunctionComponent = () => {
+type TabProps = {
+    views: { [key:string]: () => JSX.Element }
+};
+
+const Tabs: React.FunctionComponent<TabProps> = () => {
     return <></>
 }
 

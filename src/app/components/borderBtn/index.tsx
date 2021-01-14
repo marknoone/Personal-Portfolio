@@ -1,1 +1,1 @@
-export { default as BorderButton } from './borderBtn';
+export { default as BorderBtn } from './borderBtn';

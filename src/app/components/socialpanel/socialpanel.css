@@ -1,0 +1,27 @@
+.social-panel {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 40vh;
+    left: 2vw;
+}
+
+.social-panel li {
+    display: block;
+    padding-bottom: 2vh;
+    transition: transform .2s;
+    text-align: center;
+}
+
+.social-panel li:hover  {
+    transform: translate(0, -5px);
+    -o-transform: translate(0,-5px);
+    -moz-transform: translate(0, -5px);
+    -webkit-transform: translate(0, -5px);
+}
+
+.social-panel a {
+    color: #4EA8DE;
+    font-size: 1.0vw;
+}

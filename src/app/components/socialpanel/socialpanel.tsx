@@ -1,7 +1,15 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMediumM, faGithub, faLinkedinIn, faSpotify} from '@fortawesome/free-brands-svg-icons'
+import './socialpanel.css';
 
 const SocialPanel: React.FunctionComponent = () => {
-    return <></>
+    return <ul className="social-panel">
+        <li><a href="http://www.google.com" target="_blank"><FontAwesomeIcon icon={faMediumM}/></a></li>
+        <li><a href="http://www.google.com" target="_blank"><FontAwesomeIcon icon={faGithub}/></a></li>
+        <li><a href="http://www.google.com" target="_blank"><FontAwesomeIcon icon={faSpotify}/></a></li>
+        <li><a href="http://www.google.com" target="_blank"><FontAwesomeIcon icon={faLinkedinIn}/></a></li>
+    </ul>
 }
 
 export default SocialPanel;
