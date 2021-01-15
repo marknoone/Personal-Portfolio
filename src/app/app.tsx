@@ -63,16 +63,19 @@ const App:React.FunctionComponent = () => {
           <div className="row justify-content-center" style={{paddingBottom: '25vh'}} id="work">
             <div className="col-lg-9" style={{borderTop: '2px solid #dedede', paddingBottom: '25vh'}}></div>
 
+
           </div>
 
           {/* ----------------- Projects Section ----------- */}
-          <div className="row" style={{...ContentSection}} id="projects"></div>
+          <div className="row" style={{...ContentSection, backgroundColor: '#DEE2E6'}} id="projects"></div>
           
-          {/* --------------- Contact Section ---------- */}
-          <div className="row" style={{...ContentSection, backgroundColor: '#DEE2E6'}} id="contact"></div>
           
           {/* ------------------ Footer ---------------- */}
-          <div className="row" style={{...ContentSection, backgroundColor: '#CED4DA'}}></div>
+          <div className="row justify-content-center" style={{color: '#6C757D', backgroundColor: '#CED4DA', padding: '24px', fontWeight: 500, fontSize: '14px'}}>
+            <div className="col-lg-3" style={{textAlign: 'left'}}><p>Mark Noone.</p></div>
+            <div className="col-lg-4" style={{textAlign: 'center'}}><p>marklaurencenoone@gmail.com</p></div>
+            <div className="col-lg-3" style={{textAlign: 'right'}}><p>© 2020</p></div>
+          </div>
           
         </div>
       </div>

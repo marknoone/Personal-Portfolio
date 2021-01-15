@@ -7,7 +7,6 @@ const ShortcutsPanel: React.FunctionComponent = () => {
         <li><a href="#bio">BIO</a></li>
         <li><a href="#work">WORK</a></li>
         <li><a href="#projects">PROJECTS</a></li>
-        <li><a href="#contact">CONTACT</a></li>
     </ul>
 }
 
