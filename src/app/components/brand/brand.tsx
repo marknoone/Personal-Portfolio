@@ -2,14 +2,15 @@ import React from 'react';
 
 const Brand: React.FunctionComponent = () => {
     return <p style={{
-        fontSize: '24px', 
-        fontWeight: 600, 
-        width: '60px',
+        fontSize: '16px', 
+        fontWeight: 500,
         textAlign: 'center',
-        color: '#4EA8DE',
-        border: '4px solid #4EA8DE',
+        padding: '8px 32px',
+        color: '#f8f8f8',
+        maxWidth: '160px',
+        border: '2px solid #f8f8f8',
         borderRadius: '4px'
-    }}>MN</p>
+    }}>Mark Noone</p>
 }
 
 export default Brand;

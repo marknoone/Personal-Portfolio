@@ -4,7 +4,7 @@
     padding: 0;
     position: fixed;
     top: 100vh;
-    right: 2vw;
+    right: .8vw;
     width: 100vh;
     text-align: center;
 
@@ -17,17 +17,17 @@
 
 .page-shortcuts li {
     display: inline-block;
-    padding-right: 2vh;
+    padding-right: 4vh;
 }
 
 .page-shortcuts a {
-    font-size: 1.5vh;
+    font-size: 13px;
     font-weight: 600;
     letter-spacing: 2px;
-    color: #4EA8DE;
+    color: #1A1A1A;
 }
 
 .page-shortcuts a:hover {
     text-decoration: none;
-    border-bottom: 2px solid #4EA8DE;
+    border-bottom: 2px solid #1A1A1A;
 }

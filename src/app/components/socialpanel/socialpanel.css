@@ -4,7 +4,7 @@
     margin: 0;
     position: fixed;
     top: 40vh;
-    left: 2vw;
+    left: 1vw;
 }
 
 .social-panel li {
@@ -22,6 +22,6 @@
 }
 
 .social-panel a {
-    color: #4EA8DE;
+    color: #1A1A1A;
     font-size: 1.0vw;
 }
