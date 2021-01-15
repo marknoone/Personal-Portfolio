@@ -3,12 +3,12 @@ import React from 'react';
 const Brand: React.FunctionComponent = () => {
     return <p style={{
         fontSize: '16px', 
-        fontWeight: 500,
+        fontWeight: 600,
         textAlign: 'center',
-        padding: '8px 32px',
-        color: '#f8f8f8',
+        padding: '6px 24px',
+        color: '#1A1A1A',
         maxWidth: '160px',
-        border: '2px solid #f8f8f8',
+        border: '3px solid #1A1A1A',
         borderRadius: '4px'
     }}>Mark Noone</p>
 }

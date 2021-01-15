@@ -10,13 +10,17 @@ export const PrimaryColourBG: CSS.Properties = { backgroundColor: '#72EFDD' }
 
 // Layout elements
 export const MainContainer: CSS.Properties = {
-    padding: '3vw 3vw',
+    padding: '.5vw 3vw',
 }
 
 export const LandingSectionLayout: CSS.Properties = {
-    height: 'calc(100vh - 7vw)',
+    height: 'calc(100vh - 8vw)',
     width: '100%',
     backgroundColor: '#1A1A1A',
     padding: '32px',
     marginBottom: '4vw'
 } 
+
+export const ContentSection: CSS.Properties = {
+    padding: '25vh 0px',
+}

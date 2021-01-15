@@ -3,7 +3,7 @@ import { Brand } from './components/brand';
 import { BorderBtn } from './components/borderBtn';
 import { SocialPanel } from './components/socialpanel';
 import { ShortcutsPanel } from './components/shortcutspanel';
-import { LandingSectionLayout, MainContainer, NoMargin, NoPadding } from './app.css';
+import { LandingSectionLayout, MainContainer, NoMargin, NoPadding, ContentSection } from './app.css';
 
 const App:React.FunctionComponent = () => {
   return <>
@@ -13,20 +13,17 @@ const App:React.FunctionComponent = () => {
         <ShortcutsPanel />
       </div>
 
-      <div className="container-fluid" style={{...NoMargin, ...NoPadding}}>
-        <div style={MainContainer}>
+      <div className="container-fluid" style={{...NoMargin, ...NoPadding}} id="intro">
+        <div style={{...NoMargin, width: '100%', padding: '1vw 3vw 0px 3vw'}}>
+          <div style={{width: '160px', display: 'inline-block'}}><Brand /></div>
+          <div style={{float: 'right'}}>
+            <BorderBtn name="CV" onClick={() => {}}/>
+          </div>
+        </div>
 
+        <div style={MainContainer}>
           {/* --------------- Landing Section ---------- */}
           <div style={LandingSectionLayout}>
-            <div className="row" style={{...NoMargin}}>
-              <div className="col-lg-4"><Brand /></div>
-              <div className="col-lg-2 offset-lg-6">
-                <div style={{float: 'right'}}>
-                  <BorderBtn name="CV" onClick={() => {}}/>
-                </div>
-              </div>
-            </div>
-
             <div className="row" style={{ ...NoMargin, paddingTop: '20vh'}}>
               <div className="col-lg-6 offset-lg-1">
                 <h4 style={{fontSize: '18px', fontWeight: 600, lineHeight: '21px', color: '#f8f8f8'}}>Hi There! I'm Mark.</h4>
@@ -36,10 +33,13 @@ const App:React.FunctionComponent = () => {
           </div>
 
           {/* ----------------- Bio Section ------------ */}
-          <div className="row justify-content-center">
-            <div className="col-lg-5 offset-lg-2">
-              <h3>Bio</h3>
-              <img src="avatar.png" alt="pixel-based image of portfolio profile picture" />
+          <div className="row justify-content-center" style={{...ContentSection}} id="bio">
+            <div className="col-lg-2">
+              <h1 style={{fontSize: '8rem'}}>Bio.</h1>
+                {/* <img  style={{width:'10vw', height: '10vw', borderRadius: '50%'}}
+                    src="avatar.png" alt="pixel-based image of portfolio profile picture" /> */}
+            </div>
+            <div className="col-lg-6 offset-lg-1">
               <p>
                   Checkmate... Must go faster... go, go, go, go, go! I was part of something special. 
                   Checkmate... Forget the fat lady! You're obsessed with the fat lady! Drive us out 
@@ -57,22 +57,22 @@ const App:React.FunctionComponent = () => {
                   if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.
               </p>
             </div>
-            <div className="col-lg-3"><img src={""} alt="" /></div>
           </div>
           
           {/* ----------------- Work Section ----------- */}
-          <div className="row">
+          <div className="row justify-content-center" style={{paddingBottom: '25vh'}} id="work">
+            <div className="col-lg-9" style={{borderTop: '2px solid #dedede', paddingBottom: '25vh'}}></div>
 
           </div>
 
           {/* ----------------- Projects Section ----------- */}
-          <div className="row"></div>
+          <div className="row" style={{...ContentSection}} id="projects"></div>
           
           {/* --------------- Contact Section ---------- */}
-          <div className="row"></div>
+          <div className="row" style={{...ContentSection, backgroundColor: '#DEE2E6'}} id="contact"></div>
           
           {/* ------------------ Footer ---------------- */}
-          <div className="row"></div>
+          <div className="row" style={{...ContentSection, backgroundColor: '#CED4DA'}}></div>
           
         </div>
       </div>
