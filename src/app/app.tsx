@@ -5,6 +5,7 @@ import { SocialPanel } from './components/socialpanel';
 import { ShortcutsPanel } from './components/shortcutspanel';
 import { LandingSectionLayout, MainContainer, NoMargin, NoPadding, ContentSection } from './app.css';
 import { TabbedView } from './components/tabbedview';
+import ProjectGridView from './components/projectview/projectview';
 
 type WorkExpProps = { title: string, timeEmployed:string, description:string }
 const WorkExperienceView: React.FunctionComponent<WorkExpProps> = (props: WorkExpProps) => {
@@ -109,7 +110,9 @@ const App:React.FunctionComponent = () => {
           </div>
 
           {/* ----------------- Projects Section ----------- */}
-          <div className="row" style={{...ContentSection, backgroundColor: '#DEE2E6'}} id="projects"></div>
+          <div className="row" style={{...ContentSection, backgroundColor: '#DEE2E6'}} id="projects">
+              <ProjectGridView />
+          </div>
           
           
           {/* ------------------ Footer ---------------- */}
