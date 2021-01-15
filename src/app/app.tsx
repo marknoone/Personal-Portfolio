@@ -35,7 +35,7 @@ const App:React.FunctionComponent = () => {
         <div style={MainContainer}>
           {/* --------------- Landing Section ---------- */}
           <div style={LandingSectionLayout}>
-            <div className="row" style={{ ...NoMargin, paddingTop: '20vh'}}>
+            <div className="row" style={{ ...NoMargin, paddingTop: '30vh'}}>
               <div className="col-lg-6 offset-lg-1">
                 <h4 style={{fontSize: '18px', fontWeight: 600, lineHeight: '21px', color: '#f8f8f8'}}>Hi There! I'm Mark.</h4>
                 <h1 style={{fontSize: '4vw', fontWeight: 500, lineHeight: '5vw', color: '#f8f8f8'}}>Computer Science Graduate & Software Engineer</h1>
@@ -110,8 +110,8 @@ const App:React.FunctionComponent = () => {
           </div>
 
           {/* ----------------- Projects Section ----------- */}
-          <div className="row" style={{...ContentSection, backgroundColor: '#DEE2E6'}} id="projects">
-              <ProjectGridView />
+          <div className="row justify-content-center" style={{paddingBottom:'25vh', paddingTop: '5vh', backgroundColor: '#012A4A'}} id="projects">
+            <div className="col-lg-8"><ProjectGridView /></div>
           </div>
           
           
