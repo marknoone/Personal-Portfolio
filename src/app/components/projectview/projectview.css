@@ -1,0 +1,77 @@
+.project-header {
+    border-bottom: 2px solid #464646; 
+    width: 240px;
+    margin: auto; 
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+    color: #464646;
+}
+
+.project-container {
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: relative;
+    padding: 24px;
+    min-height: 380px;
+}
+
+.project-image {
+    width: 100%;
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.2);
+}
+
+.project-time {
+    position: absolute;
+    bottom: 24px;
+    left: 0px;
+    margin: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: #777;
+}
+
+.project-desc {
+    color: #012A4A;
+    margin-bottom: 32px;
+}
+
+.project-tech {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    text-align: right;
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+}
+
+.project-grid {
+    list-style: none;
+    padding: 0px;
+    margin: 0; 
+    text-decoration: none;
+}
+
+.project-grid li {
+    text-align: left;
+    background-color: #014F86;
+    box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.4);
+    padding: 16px 32px 16px 16px;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.project-grid li:hover {
+    transform: translateY(-6px);
+}
+
+.project-grid li p {
+    font-weight: 800; 
+    color: #f8f8f8; 
+    font-size: 24px; 
+    width: min-content;
+}

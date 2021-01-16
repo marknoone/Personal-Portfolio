@@ -110,13 +110,13 @@ const App:React.FunctionComponent = () => {
           </div>
 
           {/* ----------------- Projects Section ----------- */}
-          <div className="row justify-content-center" style={{paddingBottom:'25vh', paddingTop: '5vh', backgroundColor: '#012A4A'}} id="projects">
+          <div className="row justify-content-center" style={{paddingBottom:'25vh', paddingTop: '5vh', backgroundColor: '#F5F5F5', margin: '0px'}} id="projects">
             <div className="col-lg-8"><ProjectGridView /></div>
           </div>
           
           
           {/* ------------------ Footer ---------------- */}
-          <div className="row justify-content-center" style={{color: '#6C757D', backgroundColor: '#CED4DA', padding: '24px', fontWeight: 500, fontSize: '14px'}}>
+          <div className="row justify-content-center" style={{color: '#333', backgroundColor: '#A9D6E5', padding: '24px', fontWeight: 500, margin: '0px', fontSize: '14px'}}>
             <div className="col-lg-3" style={{textAlign: 'left'}}><p>Mark Noone.</p></div>
             <div className="col-lg-4" style={{textAlign: 'center'}}><p>marklaurencenoone@gmail.com</p></div>
             <div className="col-lg-3" style={{textAlign: 'right'}}><p>© 2020</p></div>

@@ -22,5 +22,5 @@ export const LandingSectionLayout: CSS.Properties = {
 } 
 
 export const ContentSection: CSS.Properties = {
-    padding: '30vh 0px',
+    padding: '25vh 0px',
 }
