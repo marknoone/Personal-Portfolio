@@ -48,22 +48,15 @@ const App:React.FunctionComponent = () => {
             <div className="col-lg-2 col-md-2 col-sm-2">
               <h1 style={{fontSize: '10vw'}}>Bio.</h1>
             </div>
-            <div className="col-lg-6 offset-lg-1 col-md-7 offset-md-1 col-sm-7 offset-sm-1">
-              <p>
-                  Checkmate... Must go faster... go, go, go, go, go! I was part of something special. 
-                  Checkmate... Forget the fat lady! You're obsessed with the fat lady! Drive us out 
-                  of here! Must go faster... go, go, go, go, go! Is this my espresso machine? Wh-what 
-                  is-h-how did you get my espresso machine?
-
-                  This thing comes fully loaded. AM/FM radio, reclining bucket seats, and... power 
-                  windows. Just my luck, no ice. You're a very talented young man, with your own clever 
-                  thoughts and ideas. Do you need a manager? Do you have any idea how long it takes 
-                  those cups to decompose.
-
-                  Is this my espresso machine? Wh-what is-h-how did you get my espresso machine? Remind 
-                  me to thank John for a lovely weekend. Must go faster... go, go, go, go, go! 
-                  Eventually, you do plan to have dinosaurs on your dinosaur tour, right? Yeah, but John, 
-                  if The Pirates of the Caribbean breaks down, the pirates don’t eat the tourists.
+            <div className="col-lg-6 offset-lg-1 col-md-7 offset-md-1 col-sm-7 offset-sm-1" style={{alignItems: 'center'}}>
+              <p style={{position: 'relative', top:'3vw'}}>
+                  My name is Mark Noone and I am a recent <b>Computer Science</b> masters graduate from 
+                  <b>Trinity College Dublin</b>. 
+                  I am a recent <b>Computer Science</b> masters graduate and am currently looking for the next chapter 
+                  of my software engineering career.  I am a measured, results-orientated, and hard-working individual 
+                  who enjoys focusing on bespoke projects with enthusiastic and knowledgable teams. I have 
+                  a great interest in <b>scalable systems, software architecture, and networked applications</b>
+                  and am looking for opportunities to develop my knowledge on these topics further.
               </p>
             </div>
           </div>
@@ -114,7 +107,7 @@ const App:React.FunctionComponent = () => {
           
           
           {/* ------------------ Footer ---------------- */}
-          <div className="row" style={{color: '#014F86', padding: '24px', fontWeight: 800, margin: '0px', marginTop: '24px', fontSize: '14px'}}>
+          <div className="row" style={{color: '#1A1A1A', padding: '24px', fontWeight: 600, margin: '0px', marginTop: '24px', fontSize: '14px'}}>
             <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6" style={{textAlign: 'left'}}><p>Mark Noone.<br /> <span style={{fontWeight: 400}}>© 2020</span></p></div>
             <div className="col-lg-3 offset-lg-6 col-md-4 offset-md-4 col-sm-6 col-xs-6" style={{textAlign: 'right'}}><p>marklaurencenoone@gmail.com</p></div>
           </div>
