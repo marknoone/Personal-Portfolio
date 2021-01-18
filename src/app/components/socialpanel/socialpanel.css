@@ -23,5 +23,11 @@
 
 .social-panel a {
     color: #343434;
-    font-size: 1.0vw;
+    font-size: 13px;
+}
+
+@media(max-width:746px) and (min-width:0px) {
+    .social-panel{
+         visibility: hidden;
+    }
 }

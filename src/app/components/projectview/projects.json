@@ -5,7 +5,7 @@
         "description":"A simple personal website to showcase my bio and projects.", 
         "date":"14/01/2021",
         "github":"https://github.com/marknoone/Personal-Portfolio", 
-        "external":"marknoone.github.io", 
+        "external":"https://marknoone.github.io", 
         "technologies":["React.JS", "Typescript", "Webpack"] 
     }
 ]

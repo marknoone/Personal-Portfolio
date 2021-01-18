@@ -7,10 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html { scroll-behavior: smooth; }
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media(max-width:768px) and (min-width:0px) {
+  .col-sm-none {
+    visibility: hidden;
+  }
+}
+
 
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */

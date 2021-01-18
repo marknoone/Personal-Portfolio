@@ -31,3 +31,9 @@
     text-decoration: none;
     border-bottom: 2px solid #1A1A1A;
 }
+
+@media(max-width:746px) and (min-width:0px) {
+    .page-shortcuts {
+         visibility: hidden;
+    }
+}

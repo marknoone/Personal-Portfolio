@@ -24,7 +24,7 @@
 
 .project-time {
     position: absolute;
-    bottom: 24px;
+    bottom: 5%;
     left: 0px;
     margin: 0;
     font-weight: 600;
@@ -38,11 +38,8 @@
 }
 
 .project-tech {
-    position: absolute;
-    top: 30px;
-    right: 0px;
-    text-align: right;
-    margin: 0;
+    text-align: left;
+    margin-bottom: 5px;
     font-weight: 500;
     font-size: 14px;
     color: #333;
@@ -53,6 +50,7 @@
     padding: 0px;
     margin: 0; 
     text-decoration: none;
+    float: left;
 }
 
 .project-grid li {

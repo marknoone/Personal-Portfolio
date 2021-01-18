@@ -36,7 +36,7 @@ const App:React.FunctionComponent = () => {
           {/* --------------- Landing Section ---------- */}
           <div style={LandingSectionLayout}>
             <div className="row" style={{ ...NoMargin, paddingTop: '30vh'}}>
-              <div className="col-lg-6 offset-lg-1">
+              <div className="col-lg-6 offset-lg-1 col-md-10">
                 <h4 style={{fontSize: '18px', fontWeight: 600, lineHeight: '21px', color: '#f8f8f8'}}>Hi There! I'm Mark.</h4>
                 <h1 style={{fontSize: '4vw', fontWeight: 500, lineHeight: '5vw', color: '#f8f8f8'}}>Computer Science Graduate & Software Engineer</h1>
               </div>
@@ -45,12 +45,10 @@ const App:React.FunctionComponent = () => {
 
           {/* ----------------- Bio Section ------------ */}
           <div className="row justify-content-center" style={{...ContentSection}} id="bio">
-            <div className="col-lg-2">
-              <h1 style={{fontSize: '8rem'}}>Bio.</h1>
-                {/* <img  style={{width:'10vw', height: '10vw', borderRadius: '50%'}}
-                    src="avatar.png" alt="pixel-based image of portfolio profile picture" /> */}
+            <div className="col-lg-2 col-md-2 col-sm-2">
+              <h1 style={{fontSize: '10vw'}}>Bio.</h1>
             </div>
-            <div className="col-lg-6 offset-lg-1">
+            <div className="col-lg-6 offset-lg-1 col-md-7 offset-md-1 col-sm-7 offset-sm-1">
               <p>
                   Checkmate... Must go faster... go, go, go, go, go! I was part of something special. 
                   Checkmate... Forget the fat lady! You're obsessed with the fat lady! Drive us out 
@@ -72,10 +70,10 @@ const App:React.FunctionComponent = () => {
           
           {/* ----------------- Work Section ----------- */}
           <div className="row justify-content-center" style={{paddingBottom: '25vh'}} id="work">
-            <div className="col-lg-9" style={{borderTop: '2px solid #dedede'}}></div>
+            <div className="col-lg-9 col-md-10 col-sm-11" style={{borderTop: '2px solid #dedede'}}></div>
           </div>
           <div className="row justify-content-center" style={{paddingBottom: '25vh'}} >
-            <div className="col-lg-5">
+            <div className="col-lg-5 col-md-7 col-sm-11">
               <TabbedView views={{
                 "Engage EHS": () => <WorkExperienceView title="Software Engineer Intern" timeEmployed="January 2019 - August 2019" 
                     description="In 2019 I joined the production team at Effective Software, helping them develop the company’s 
@@ -104,8 +102,8 @@ const App:React.FunctionComponent = () => {
                       Web UI Development and learned the importance of individual roles in a group dynamic." />,
               }}/>
             </div>
-            <div className="col-lg-2 offset-lg-1">
-              <h1 style={{fontSize: '8rem'}}>Work.</h1>
+            <div className="col-lg-2 offset-lg-1 col-md-3 col-sm-none">
+              <h1 style={{fontSize: '10vw'}}>Work.</h1>
             </div>
           </div>
 
@@ -117,8 +115,8 @@ const App:React.FunctionComponent = () => {
           
           {/* ------------------ Footer ---------------- */}
           <div className="row" style={{color: '#014F86', padding: '24px', fontWeight: 800, margin: '0px', marginTop: '24px', fontSize: '14px'}}>
-            <div className="col-lg-3" style={{textAlign: 'left'}}><p>Mark Noone.<br /> <span style={{fontWeight: 400}}>© 2020</span></p></div>
-            <div className="col-lg-3 offset-lg-6" style={{textAlign: 'right'}}><p>marklaurencenoone@gmail.com</p></div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-xs-6" style={{textAlign: 'left'}}><p>Mark Noone.<br /> <span style={{fontWeight: 400}}>© 2020</span></p></div>
+            <div className="col-lg-3 offset-lg-6 col-md-4 offset-md-4 col-sm-6 col-xs-6" style={{textAlign: 'right'}}><p>marklaurencenoone@gmail.com</p></div>
           </div>
           
         </div>
