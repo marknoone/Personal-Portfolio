@@ -28,7 +28,7 @@ const App:React.FunctionComponent = () => {
         <div style={{...NoMargin, width: '100%', padding: '1vw 3vw 0px 3vw'}}>
           <div style={{width: '160px', display: 'inline-block'}}><Brand /></div>
           <div style={{float: 'right'}}>
-            <BorderBtn name="CV" onClick={() => {}}/>
+            <BorderBtn name="CV" link="https://github.com/marknoone/marknoone.github.io/raw/master/assets/Mark%20CV.pdf"/>
           </div>
         </div>
 
